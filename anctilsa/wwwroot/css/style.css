@@ -497,6 +497,10 @@ table td.score-5:after { content: "5"; }
     margin-bottom: 0;
 }
 
+#legend td:first-child {
+    color: var(--x-dark-gray);
+}
+
 #contact-informations > p {
     margin: 0;
 }
