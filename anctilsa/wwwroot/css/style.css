@@ -140,9 +140,6 @@ header {
     background-image: url(/images/banner.jpg);
 }
 
-#content {
-}
-
 main > *, 
 nav#main-menu ul, 
 footer p {
@@ -268,6 +265,10 @@ p {
     line-height: var(--font-large);
 }
 
+.x-small {
+    font-size: var(--font-x-small);
+}
+
 h1 { font-size: var(--font-xxx-large); }
 h2 { font-size: var(--font-x-large); }
 h3 { 
@@ -385,6 +386,36 @@ footer p {
 .col-11 { width: var(--col-11); }
 .col-12 { width: var(--col-12); }
 
+/*
+    Media queries
+*/
+@media screen and (max-width: 960px) {
+    .row > * {
+        float: none;
+        width: var(--col-12);
+    }
+
+    #header,
+    main > *,
+    nav#main-menu ul,
+    footer section {
+        padding-left: var(--space-normal);
+        padding-right: var(--space-normal);
+    }
+
+    #header section{
+    }
+
+    #hexagon-border {
+        display: none;
+    }
+
+    #hexagon-image {
+        display: none;
+    }
+}
+
+
 /***********************************************
     Curriculum vitea
 ***********************************************/
@@ -468,4 +499,25 @@ table td.score-5:after { content: "5"; }
 
 #contact-informations > p {
     margin: 0;
+}
+
+/*
+    Media queries
+*/
+@media screen and (max-width: 960px) {
+    #about img {
+        display: none;
+    }
+
+    .score {
+        width: var(--col-4);
+        float: left;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .score {
+        width: var(--col-12);
+        float: none;
+    }
 }
