@@ -12,7 +12,18 @@
     <body>
         <nav id="main-menu">
             <ul>
-                <li><a onclick="jump('first')">Curriculum vitea</a></li>
+                <li><a class="border" onclick="jump('first')">Curriculum vitea</a></li>
+                <li><a class="border" href="https://github.com/anctilsa/anctilsa/commits/master" target="_blank">Sources</a></li>
+                @*<li>
+                    <a href="https://www.facebook.com/anctilsa" target="_blank">
+                        <img src="~/images/facebook-logo.gif" alt="Mon profile Facebook">
+                    </a>
+                </li>*@
+                <li>
+                    <a href="https://www.linkedin.com/in/samuel-anctil-2965ab141/" target="_blank">
+                        <img src="~/images/linkedin-logo.gif" alt="Mon profile LinkedIn">
+                    </a>
+                </li>
             </ul>
         </nav>
         <header>
@@ -21,9 +32,11 @@
             </div>
             <div id="header" class="container">
                 <div class="row">
-                    <section class="col-8">
-                        <h1 class="no-margin">Samuel Anctil</h1>
-                        <h2 class="no-margin">Développeur</h2>
+                    <section id="title" class="col-8">
+                        <div>
+                            <h1 class="no-margin">Samuel Anctil</h1>
+                            <h2 class="no-margin">Analyste-programmeur *disponible*</h2>
+                        </div>
                     </section>
                     <div class="col-4">
                         <div class="hexagon" id="hexagon-border">
@@ -51,11 +64,10 @@
         <footer>
             <section>
                 <h3>&copy; 2017 - Samuel Anctil</h3>
-                <p><a href="https://github.com/anctilsa/anctilsa/commits/master" target="_blank">Voir les sources</a></p>
             </section>
         </footer>
         <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        @*<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>*@
         <script src="~/js/site.js" asp-append-version="true"></script>
     </body>
 </html>

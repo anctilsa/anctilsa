@@ -15,6 +15,10 @@
   <ItemGroup>
     <Content Include="wwwroot\css\style.css" />
     <Content Include="wwwroot\images\banner.jpg" />
+    <Content Include="wwwroot\images\facebook-logo.gif" />
+    <Content Include="wwwroot\images\facebook-logo.png" />
+    <Content Include="wwwroot\images\linkedin-logo.gif" />
+    <Content Include="wwwroot\images\linkedin-logo.png" />
     <Content Include="wwwroot\images\orange-x-pale-bg.jpg" />
     <Content Include="wwwroot\images\green-x-pale-bg.jpg" />
     <Content Include="wwwroot\images\red-x-pale-bg.jpg" />
