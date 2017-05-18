@@ -4,39 +4,35 @@
 }
 
 <div id="first" class="container">
-    <section id="about" class="row panel">
-        <div class="col-3">
-            <img src="~/images/profile-image.jpg" alt="Curriculum vitea - Samuel Anctil" />
+    <div  id="about" class="row">
+        <div class="col-8">
+            <section>
+                <h2>Samuel Anctil</h2>
+                <div>
+                    <h4><pre>   anctilsa@hotmail.com</pre></h4>
+                    <h4><pre>   anctilsa.azurewebsites.net</pre></h4>
+                    <h4><pre>   Sherbrooke, rue Clémenceau</pre></h4>
+                </div>
+                <p>Programmeur nouvellement certifié, je me suis spécialisé en <b>ASP.NET</b> lors de mon stage de fin de DEC au Cégep de Sherbrooke. Je me suis également découvert un penchant pour le <b>développement de documents d’analyse</b> et la <b>programmation full-stack</b>.</p>
+            </section>
         </div>
-        <div class="col-9">
-            <div class="row">
-                <section class="col-6">
-                    <h2>Samuel Anctil</h2>
-                    <div id="contact-informations">
-                        <p><strong>anctilsa@hotmail.com</strong></p>
-                        <p><strong>819 238-3037</strong></p>
-                        <p><strong>anctilsa.azurewebsites.net</strong></p>
-                    </div>
-                </section>
-                <table id="legend" class="score col-6">
-                    <tr><th colspan="2">Légende</th></tr>
-                    <tr><td class="score-1"></td><td>Connaît</td></tr>
-                    <tr><td class="score-2"></td><td>Apprentissage</td></tr>
-                    <tr><td class="score-3"></td><td>Compétent</td></tr>
-                    <tr><td class="score-4"></td><td>Maîtrise</td></tr>
-                    <tr><td class="score-5"></td><td>Expertise</td></tr>
-                </table>
-            </div>
-            <div class="row">
-                <p class="col-12">Programmeur nouvellement certifié, je me suis spécialisé en ASP.NET lors de mon stage de fin de DEC au Cégep de Sherbrooke. Je me suis également découvert un penchant pour le développement de documents d’analyse et la programmation full-stack.</p>
-            </div>
+        <div class="col-4">
+            <img id="about-image"src="~/images/profile-image.jpg" alt="Curriculum vitea - Samuel Anctil" />
         </div>
-    </section>
+    </div>
 </div>
 <div id="second" class="container">
     <div class="row">
-        <section id="experience" class="col-9 info-cv">
+        <section id="experience" class="col-8 info-cv">
             <h2>Expériences</h2>
+            <table id="legend" class="score">
+                <tr><th colspan="2">Légende</th></tr>
+                <tr><td class="score-1"></td><td>Connaîssance</td></tr>
+                <tr><td class="score-2"></td><td>Apprentissage</td></tr>
+                <tr><td class="score-3"></td><td>Compétence</td></tr>
+                <tr><td class="score-4"></td><td>Maîtrise</td></tr>
+                <tr><td class="score-5"></td><td>Expertise</td></tr>
+            </table>
             <article>
                 <h3>Développement de LMLesMinis (version 2)</h3>
                 <p>Refonte d'un site internet pour aider a la vente de mini-chevaux en ASP.NET.</p>
@@ -53,7 +49,7 @@
             </article>
             <article>
                 <h3>Projet de cours</h3>
-                <p>Création d'un système de gestion d'inventaire complet en ASP.NET sous la supervision du client Excavation René St-Pierre.</p>
+                <p>Création d'un système de gestion d'inventaire complet en C# sous la supervision du client Excavation René St-Pierre.</p>
                 <ul>
                     <li>Septembre 2016 à décembre 2016, Cégep de Sherbrooke</li>
                 </ul>
@@ -66,7 +62,7 @@
                 </ul>
             </article>
         </section>
-        <section id="competence" class="col-3">
+        <section id="competence" class="col-4">
             <h2>Compétences</h2>
             <table class="score">
                 <tr><th colspan="2">Web</th></tr>
@@ -96,7 +92,7 @@
 </div>
 <div id="third">
     <div class="row"> 
-        <section id="studie" class="col-9 info-cv">
+        <section id="studie" class="col-8 info-cv">
             <h2>Études</h2>
             <article>
                 <h3>DEC en informatique de gestion</h3>
@@ -117,7 +113,7 @@
                 </ul>
             </article>
         </section>
-        <section id="other" class="col-3">
+        <section id="other" class="col-4">
             <h2>Autres</h2>
             <table class="score">
                 <tr><th colspan="2">Langues</th></tr>

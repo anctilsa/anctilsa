@@ -15,3 +15,4 @@ F:\Bibliothèque\Bibliothèque\Personel\G&A Poly\anctilsa\anctilsa\anctilsa\bin\
 F:\Bibliothèque\Bibliothèque\Personel\G&A Poly\anctilsa\anctilsa\anctilsa\obj\Debug\netcoreapp1.1\anctilsa.AssemblyInfo.cs
 F:\Bibliothèque\Bibliothèque\Personel\G&A Poly\anctilsa\anctilsa\anctilsa\obj\Debug\netcoreapp1.1\anctilsa.dll
 F:\Bibliothèque\Bibliothèque\Personel\G&A Poly\anctilsa\anctilsa\anctilsa\obj\Debug\netcoreapp1.1\anctilsa.pdb
+F:\Bibliothèque\Bibliothèque\Personel\G&A Poly\anctilsa\anctilsa\anctilsa\obj\Debug\netcoreapp1.1\anctilsa.csprojResolveAssemblyReference.cache
