@@ -456,50 +456,6 @@ footer > section > p {
     width: var(--col-12);
 }
 
-/*
-    Media queries
-*/
-@media screen and (max-width: 1200px) {
-    #header,
-    main > *,
-    nav#main-menu ul,
-    footer section {
-        margin-left: var(--col-1);
-        margin-right: var(--col-1);
-    }
-}
-
-
-@media screen and (max-width: 960px) {
-    nav#main-menu li a {
-    }
-
-    nav#main-menu li a > img {
-        margin-bottom: 0;
-    }
-
-    header #title {
-        margin-left: 0;
-    }
-
-    header #title h1 {
-        font-size: var(--font-xx-large);
-    }
-
-    #hexagon-border {
-        display: none;
-    }
-
-    #hexagon-image {
-        display: none;
-    }
-
-    .row > * {
-        float: none;
-        width: var(--col-12);
-    }
-}
-
 /***********************************************
     Curriculum vitea
 ***********************************************/
@@ -641,9 +597,65 @@ table td.score-5:after {
 }
 
 /*
-Media queries
+    Media queries
 */
+@media screen and (max-width: 1300px) {
+    #header,
+    main > *,
+    nav#main-menu ul,
+    footer section {
+        margin-left: var(--col-1);
+        margin-right: var(--col-1); 
+    }
+}
+
+
 @media screen and (max-width: 960px) {
+    #header,
+    main > *,
+    nav#main-menu ul,
+    footer section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main > #fisrt {
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    main > #third {
+        border-radius: 0;
+    }
+
+    nav#main-menu li a {
+    }
+
+    nav#main-menu li a > img {
+        margin-bottom: 0;
+    }
+
+    header #title {
+        margin-left: 0;
+    }
+
+    header #title h1 {
+        font-size: var(--font-xx-large);
+    }
+
+    #hexagon-border {
+        display: none;
+    }
+
+    #hexagon-image {
+        display: none;
+    }
+
+    .row > * {
+        float: none;
+        width: var(--col-12);
+    }
+
     #about img {
         display: none;
     }
@@ -653,6 +665,7 @@ Media queries
         float: left;
     }
 }
+
 
 @media screen and (max-width: 540px) {
     .score {
